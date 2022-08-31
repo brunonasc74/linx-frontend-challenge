@@ -152,6 +152,64 @@ form .btn {
 	border: thin solid #707070;
 	border-radius: 4px;
 	padding: 11px 0;
+	font-size: 16px;
+}
+
+/* ProductsSection */
+.product {
+	margin-top: 23px;
+	display: flex;
+}
+
+.img-div {
+	width: 169px;
+	height: 129px;
+	border: thin solid #707070;
+	margin-right: 23px;
+}
+
+.price-div {
+	color: #888;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 51%;
+}
+
+.price-div h4 {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.price-div .s-pricetag {
+	font-size: 12px;
+}
+.price-div .b-pricetag {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.product input {
+	width: 100%;
+	background-color: transparent;
+	color: #888;
+	border: thin solid #707070;
+	border-radius: 4px;
+	font-size: 16px;
+	padding: 6px 0;
+}
+
+.btn-product {
+	width: 65%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 53px;
+	background-color: transparent;
+	color: #888;
+	border: thin solid #707070;
+	border-radius: 4px;
+	padding: 11px 0;
+	font-size: 16px;
 }
 
 /* FormShare */
@@ -166,11 +224,17 @@ form .btn {
 	margin-top: 28px;
 }
 
-.form-share .btn {
+.form-share .btn-formshare {
 	width: 65%;
 	display: block;
 	margin: 0 auto;
 	margin-top: 22px;
+	background-color: transparent;
+	color: #888;
+	border: thin solid #707070;
+	border-radius: 4px;
+	padding: 11px 0;
+	font-size: 16px;
 }
 
 /* Footer */
