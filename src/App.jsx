@@ -5,6 +5,7 @@ import Form from './components/Form';
 import Section from './components/Section';
 import FormShare from './components/FormShare';
 import Footer from './components/Footer';
+import ProductsSection from './components/ProductsSection';
 
 function App() {
 	return (
@@ -14,6 +15,7 @@ function App() {
 				<Section />;
 				<Form />
 				<Title text={'Sua seleção especial'} />
+				<ProductsSection />
 				<Title text={'Compartilhe a novidade'} />
 				<FormShare />
 			</main>
