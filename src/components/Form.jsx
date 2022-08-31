@@ -18,11 +18,11 @@ const Form = () => {
 				<div className='form-control form-control-check'>
 					<div className='check'>
 						<input type='radio' name='radio' id='radio1'></input>
-						<label for='radio1'>Masculino</label>
+						<label htmlFor='radio1'>Masculino</label>
 					</div>
 					<div className='check'>
 						<input type='radio' name='radio' id='radio2'></input>
-						<label for='radio2'>Feminino</label>
+						<label htmlFor='radio2'>Feminino</label>
 					</div>
 				</div>
 
