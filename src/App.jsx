@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import Title from './components/Title';
 import Header from './components/Header';
 import Form from './components/Form';
 import Section from './components/Section';
-import Title from './components/Title';
+import FormShare from './components/FormShare';
 import Footer from './components/Footer';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
 				<Form />
 				<Title text={'Sua seleção especial'} />
 				<Title text={'Compartilhe a novidade'} />
+				<FormShare />
 			</main>
 			<Footer />
 		</div>
