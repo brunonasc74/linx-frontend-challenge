@@ -16,7 +16,11 @@ const FormShare = () => {
 						<input type='text'></input>
 					</div>
 
-					<input type='submit' value='Enviar agora' className='btn'></input>
+					<input
+						type='submit'
+						value='Enviar agora'
+						className='btn-formshare'
+					></input>
 				</form>
 			</div>
 		</div>

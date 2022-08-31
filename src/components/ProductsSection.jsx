@@ -3,10 +3,17 @@ import Product from './Product';
 const ProductsSection = () => {
 	return (
 		<div>
-			<Product />
-			<Product />
-			<Product />
-			<Product />
+			<div className='product-grid'>
+				<Product />
+				<Product />
+				<Product />
+				<Product />
+			</div>
+			<input
+				type='submit'
+				value='Ainda mais produtos aqui!'
+				className='btn-product'
+			></input>
 		</div>
 	);
 };
