@@ -10,11 +10,6 @@ body {
 	font-size: 14px;
 }
 
-.App {
-	display: grid;
-	grid-template-rows: 398px 1fr 158px;
-}
-
 .container {
 	width: 94%;
 	margin: auto;
@@ -50,9 +45,10 @@ body {
 
 /* Header */
 header {
+	height: 398px;
 	background: #707070 0% 0% no-repeat padding-box;
 	border: 1px solid #707070;
-	opacity: 1;
+	margin-bottom: 29px;
 }
 
 .box-one {
@@ -96,10 +92,6 @@ header {
 }
 
 /* MainSection */
-main {
-	margin-top: 29px;
-	margin-bottom: 85px;
-}
 
 .main-section h2 {
 	font-size: 20px;
@@ -158,6 +150,8 @@ form .btn {
 
 /* Footer */
 footer {
+	margin-top: 85px;
+	height: 158px;
 	background: #707070 0% 0% no-repeat padding-box;
 	border: 1px solid #707070;
 	opacity: 1;
