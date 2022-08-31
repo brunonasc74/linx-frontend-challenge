@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import Title from './components/Title';
 import Header from './components/Header';
 import Form from './components/Form';
 import Section from './components/Section';
@@ -14,9 +12,7 @@ function App() {
 			<main>
 				<Section />;
 				<Form />
-				<Title text={'Sua seleção especial'} />
 				<ProductsSection />
-				<Title text={'Compartilhe a novidade'} />
 				<FormShare />
 			</main>
 			<Footer />

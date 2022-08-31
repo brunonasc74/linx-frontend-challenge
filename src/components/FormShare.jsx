@@ -1,6 +1,9 @@
+import Title from './Title';
+
 const FormShare = () => {
 	return (
 		<div className='form-share'>
+			<Title text={'Compartilhe a novidade'} />
 			<div className='container'>
 				<p>
 					Quer que seus amigos também ganhem a lista personalizada deles?

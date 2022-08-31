@@ -1,8 +1,10 @@
 import Product from './Product';
+import Title from './Title';
 
 const ProductsSection = () => {
 	return (
 		<div>
+			<Title text={'Sua seleção especial'} />
 			<div className='product-grid'>
 				<Product />
 				<Product />
