@@ -12,12 +12,40 @@ body {
 
 .App {
 	display: grid;
-	grid-template-rows: 398px 1fr minmax(158px, 293px);
+	grid-template-rows: 398px 1fr 158px;
 }
 
 .container {
 	width: 94%;
 	margin: auto;
+}
+
+/* Title */
+.title {
+	margin-top: 91px;
+	overflow: hidden;
+	text-align: center;
+	color: #888;
+	font-size: 18px;
+	font-weight: bold;
+}
+.title:before,
+.title:after {
+	background-color: #888;
+	content: '';
+	display: inline-block;
+	height: 1px;
+	position: relative;
+	vertical-align: middle;
+	width: 50%;
+}
+.title:before {
+	right: 17px;
+	margin-left: -50%;
+}
+.title:after {
+	left: 17px;
+	margin-right: -50%;
 }
 
 /* Header */
