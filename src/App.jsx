@@ -10,7 +10,7 @@ function App() {
 		<div className='App'>
 			<Header />
 			<main>
-				<Section />;
+				<Section />
 				<Form />
 				<ProductsSection />
 				<FormShare />
