@@ -87,6 +87,10 @@ header {
 	gap: 20px;
 }
 
+.box-two * {
+	cursor: pointer;
+}
+
 .box {
 	color: #888;
 	background: #fff 0% 0% no-repeat padding-box;
