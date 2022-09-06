@@ -20,7 +20,7 @@ const Form = () => {
 					<input
 						type='text'
 						pattern='\d*'
-						minlength='11'
+						minLength='11'
 						required
 						title='CPF inválido, digite apenas números'
 					></input>
