@@ -182,6 +182,12 @@ form .btn {
 	margin-right: 23px;
 }
 
+.img-div img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .price-div {
 	color: #888;
 	display: flex;
