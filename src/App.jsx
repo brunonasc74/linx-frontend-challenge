@@ -10,8 +10,11 @@ function App() {
 		<div className='App'>
 			<Header />
 			<main>
-				<Section />
-				<Form />
+				<div className='section-flex'>
+					<Section />
+					<div className='section-space'></div>
+					<Form />
+				</div>
 				<ProductsSection />
 				<FormShare />
 			</main>

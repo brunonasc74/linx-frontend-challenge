@@ -30,6 +30,10 @@ const ProductsSection = () => {
 				<Product />
 				<Product />
 				<Product />
+				<Product />
+				<Product />
+				<Product />
+				<Product />
 			</div>
 			<input
 				onClick={loadProducts}

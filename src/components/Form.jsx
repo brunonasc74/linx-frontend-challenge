@@ -1,6 +1,6 @@
 const Form = () => {
 	return (
-		<form>
+		<form className='section-form'>
 			<div className='container'>
 				<div className='form-control'>
 					<label>Seu nome:</label>

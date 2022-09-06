@@ -1,0 +1,167 @@
+@media (min-width: 600px) {
+	.container {
+		width: 90% !important;
+	}
+
+	.product-grid {
+		width: 95%;
+		margin: auto;
+		margin-top: 23px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 41px;
+	}
+
+	.product {
+		flex-direction: column;
+		width: 200px !important;
+	}
+
+	.img-div {
+		width: 100% !important;
+		height: 150px !important;
+		margin-right: 0px !important;
+	}
+
+	.price-div {
+		width: 100% !important;
+	}
+
+	.price-div h4 {
+		margin-top: 14px;
+	}
+
+	.price-div p:nth-of-type(1) {
+		display: block !important;
+		margin-top: 10px;
+	}
+	.price-div p:nth-of-type(2) {
+		margin-top: 10px;
+	}
+	.price-div p:nth-of-type(3) {
+		margin-top: 6px;
+	}
+	.price-div p:nth-of-type(4) {
+		margin-top: 7px;
+		margin-bottom: 10px;
+	}
+
+	.product-grid .product {
+		margin: 0;
+	}
+}
+
+@media (min-width: 800px) {
+	.container {
+		width: 80% !important;
+	}
+	.product-grid {
+		width: 96%;
+		grid-template-columns: repeat(3, 1fr);
+	}
+	.box-one {
+		text-align: center;
+	}
+	.box-two {
+		grid-template-columns: repeat(4, 1fr) !important;
+	}
+
+	.section-form .container,
+	.main-section .container {
+		width: 100% !important;
+	}
+	.section-flex {
+		width: 90%;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+	}
+	.section-space {
+		width: 50%;
+	}
+	.section-form {
+		width: 300%;
+		margin: 0;
+	}
+	.input-flex {
+		display: flex;
+		justify-content: center;
+	}
+	.form-share .form-control {
+		width: 340px;
+	}
+
+	.form-share .space {
+		width: 4%;
+	}
+}
+
+@media (min-width: 1050px) {
+	.section-flex {
+		width: 85%;
+		margin: auto;
+	}
+	.container {
+		width: 60% !important;
+	}
+	.product-grid {
+		width: 92%;
+		grid-template-columns: repeat(4, 1fr) !important;
+	}
+
+	.box-two {
+		width: 60% !important;
+		gap: 30px !important;
+	}
+
+	.title {
+		width: 85%;
+		margin: auto;
+	}
+}
+
+@media (min-width: 1300px) {
+	.section-flex {
+		width: 60%;
+		margin: auto;
+	}
+	.section-form {
+		width: 200%;
+	}
+	.container {
+		width: 100% !important;
+	}
+	.product-grid {
+		width: 62%;
+		grid-template-columns: repeat(4, 1fr) !important;
+	}
+	.box-two {
+		width: 52% !important;
+	}
+	.title {
+		width: 62%;
+		margin: auto;
+	}
+}
+
+@media (min-width: 1500px) {
+	.product-grid {
+		width: 62%;
+		grid-template-columns: repeat(4, 1fr) !important;
+	}
+	.box-two {
+		width: 47% !important;
+	}
+
+	.bg-clip {
+		height: 398px;
+		border-top: 5px solid red;
+		margin-bottom: 29px;
+		background: rgb(255, 255, 255);
+		background: linear-gradient(
+			14.5deg,
+			rgba(255, 255, 255, 1) 22%,
+			rgba(112, 112, 112, 1) 22%
+		);
+	}
+}

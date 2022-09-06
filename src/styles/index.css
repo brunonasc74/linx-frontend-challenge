@@ -1,3 +1,5 @@
+@import url(./media.css);
+
 * {
 	scroll-behavior: smooth;
 	box-sizing: border-box;
@@ -50,7 +52,7 @@ header {
 	margin-bottom: 29px;
 	background: rgb(255, 255, 255);
 	background: linear-gradient(
-		14.5deg,
+		4.3deg,
 		rgba(255, 255, 255, 1) 22%,
 		rgba(112, 112, 112, 1) 22%
 	);
@@ -156,6 +158,7 @@ form .btn {
 }
 
 /* ProductsSection */
+
 .product {
 	margin-top: 23px;
 	display: flex;
@@ -181,6 +184,11 @@ form .btn {
 	font-weight: normal;
 }
 
+.price-div .d-pricetag {
+	display: none;
+	font-size: 12px;
+}
+
 .price-div .s-pricetag {
 	font-size: 12px;
 }
@@ -200,7 +208,7 @@ form .btn {
 }
 
 .btn-product {
-	width: 65%;
+	width: 260px;
 	display: block;
 	margin: 0 auto;
 	margin-top: 53px;
@@ -225,7 +233,7 @@ form .btn {
 }
 
 .form-share .btn-formshare {
-	width: 65%;
+	width: 245px;
 	display: block;
 	margin: 0 auto;
 	margin-top: 22px;
@@ -251,9 +259,9 @@ footer {
 	line-height: 1.1rem;
 	background: rgb(112, 112, 112);
 	background: linear-gradient(
-		353deg,
-		rgba(112, 112, 112, 1) 75%,
-		rgba(255, 255, 255, 1) 75%
+		358deg,
+		rgba(112, 112, 112, 1) 70%,
+		rgba(255, 255, 255, 1) 70%
 	);
 }
 
