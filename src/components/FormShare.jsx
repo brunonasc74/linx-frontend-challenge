@@ -13,12 +13,17 @@ const FormShare = () => {
 					<div className='input-flex'>
 						<div className='form-control'>
 							<label>Nome do seu amigo:</label>
-							<input type='text'></input>
+							<input
+								type='text'
+								pattern='.{3,}'
+								required
+								title='Nome completo necessário'
+							></input>
 						</div>
 						<div className='space'></div>
 						<div className='form-control'>
 							<label>E-mail dele:</label>
-							<input type='text'></input>
+							<input type='email'></input>
 						</div>
 					</div>
 
