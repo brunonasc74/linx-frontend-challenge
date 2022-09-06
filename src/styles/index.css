@@ -126,12 +126,18 @@ form {
 	color: #888;
 	display: block;
 	margin-bottom: 7px;
+	cursor: pointer;
 }
 .form-control input {
 	padding: 6px;
 	border: thin solid #888;
 	margin-bottom: 20px;
 	width: 100%;
+}
+
+#radio1,
+#radio2 {
+	cursor: pointer;
 }
 
 .form-control-check {
@@ -155,6 +161,7 @@ form .btn {
 	border-radius: 4px;
 	padding: 11px 0;
 	font-size: 16px;
+	cursor: pointer;
 }
 
 /* ProductsSection */
@@ -205,6 +212,7 @@ form .btn {
 	border-radius: 4px;
 	font-size: 16px;
 	padding: 6px 0;
+	cursor: pointer;
 }
 
 .btn-product {
@@ -218,6 +226,7 @@ form .btn {
 	border-radius: 4px;
 	padding: 11px 0;
 	font-size: 16px;
+	cursor: pointer;
 }
 
 /* FormShare */
@@ -243,6 +252,7 @@ form .btn {
 	border-radius: 4px;
 	padding: 11px 0;
 	font-size: 16px;
+	cursor: pointer;
 }
 
 /* Footer */
