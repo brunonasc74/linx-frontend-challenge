@@ -15,7 +15,7 @@ O desafio consiste no desenvolvimento do _layout_ de uma _landing page_ com uma 
     <img src= "./src/assets/linx-impulse.gif" alt="Linx Impulse">
 </p>
 
-**Link do página**: https://fabulous-custard-9e202c.netlify.app/
+**Link da página**: https://fabulous-custard-9e202c.netlify.app/
 
 **Link do layout**: https://xd.adobe.com/spec/4025e242-a495-4594-71d2-5fd89d774b57-3614
 
